@@ -8,5 +8,6 @@ public class LoginTest {
 		System.out.println("file updated");
 		System.out.println("from new HP laptop");
 		System.out.println("Test from old Lenovo"); 
+		System.out.println("After newHP branch delete");
 	}
 }
