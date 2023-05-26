@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>testEasyProject</groupId>
-  <artifactId>testEasyProject</artifactId>
+  <groupId>testEasyExtentReportProject</groupId>
+  <artifactId>testEasyExtentReportProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>testEasyProject</name>
+  <name>testEasyExtentReportProject</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 <!-- 
@@ -117,12 +117,8 @@
 	        <version>3.1.0</version>
 	        <configuration>
 	          <suiteXmlFiles>
-	            <suiteXmlFile>${xmlfiles}</suiteXmlFile>
+	            <suiteXmlFile>testng1.xml</suiteXmlFile>
 	          </suiteXmlFiles>
-	          <systemPropertyVariables>
-				  <executionBrowser>${browser}</executionBrowser>
-				  <appurl>${url}</appurl>
-			  </systemPropertyVariables>
 	        </configuration>
       	</plugin>
       	<plugin>
