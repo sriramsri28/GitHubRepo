@@ -117,8 +117,12 @@
 	        <version>3.1.0</version>
 	        <configuration>
 	          <suiteXmlFiles>
-	            <suiteXmlFile>testng.xml</suiteXmlFile>
+	            <suiteXmlFile>${xmlfiles}</suiteXmlFile>
 	          </suiteXmlFiles>
+	          <systemPropertyVariables>
+				  <executionBrowser>${browser}</executionBrowser>
+				  <appurl>${url}</appurl>
+			  </systemPropertyVariables>
 	        </configuration>
       	</plugin>
       	<plugin>
