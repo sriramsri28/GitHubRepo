@@ -23,7 +23,7 @@ public class BaseClass1 {
 	//public WebDriver setUp() throws IOException {
 	public void setUp() throws IOException, InterruptedException {
 		//Properties file path
-  		String path = "C:/SS/Selenium/testSeleniumJenkinsProject/src/test/java/testdata.properties";
+  		String path = "./src/test/java/testdata.properties"; 
   		
   		//Creating object of Properties class
   		Properties prop = new Properties();
