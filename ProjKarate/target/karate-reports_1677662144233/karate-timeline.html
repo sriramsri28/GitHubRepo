@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/KarateUITest\/TestCallFeatureFile[1:5]","start":1677661860904,"end":1677661861740,"title":"src\/test\/java\/KarateUITest\/TestCallFeatureFile[1:5] 14:41:00.904-14:41:01.740 Title of your scenario"},{"id":2,"group":1,"content":"src\/test\/java\/KarateUITest\/TestCallFeatureFile[2.1:17]","start":1677661861759,"end":1677661861774,"title":"src\/test\/java\/KarateUITest\/TestCallFeatureFile[2.1:17] 14:41:01.759-14:41:01.774 Title of your scenario outline"},{"id":3,"group":1,"content":"src\/test\/java\/KarateUITest\/TestCallFeatureFile[2.2:18]","start":1677661861796,"end":1677661861827,"title":"src\/test\/java\/KarateUITest\/TestCallFeatureFile[2.2:18] 14:41:01.796-14:41:01.827 Title of your scenario outline"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
