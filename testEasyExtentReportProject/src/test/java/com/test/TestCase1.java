@@ -23,7 +23,7 @@ public class TestCase1 extends BaseClass1{
 		logger.logInfo("clicking on login button");
 		logger.logPass("Test passed");
 		logger.endTest();
-		System.out.println("Entered value successfully..and searched");	
+		System.out.println("Entered value successfully..and searched..");	
 		
 	}
 	@Test(priority=2)
