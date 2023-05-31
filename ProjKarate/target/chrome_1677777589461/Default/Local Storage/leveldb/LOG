@@ -1,0 +1,5 @@
+2023/03/02-22:50:08.636 6bbc Creating DB F:\Selenium\ProjKarate\target\chrome_1677777589461\Default\Local Storage\leveldb since it was missing.
+2023/03/02-22:50:11.256 6bbc Reusing MANIFEST F:\Selenium\ProjKarate\target\chrome_1677777589461\Default\Local Storage\leveldb/MANIFEST-000001
+2023/03/02-22:51:24.952 48f0 Level-0 table #5: started
+2023/03/02-22:51:26.853 48f0 Level-0 table #5: 36494 bytes OK
+2023/03/02-22:51:27.392 48f0 Delete type=0 #3

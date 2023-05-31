@@ -1,0 +1,6 @@
+2023/02/28-19:29:52.590 62fc Reusing MANIFEST F:\Selenium\ProjKarate\target\chrome_1677592720680\Default\Local Storage\leveldb/MANIFEST-000001
+2023/02/28-19:29:52.598 62fc Recovering log #3
+2023/02/28-19:29:52.599 62fc Reusing old log F:\Selenium\ProjKarate\target\chrome_1677592720680\Default\Local Storage\leveldb/000003.log 
+2023/02/28-19:30:16.212 62fc Level-0 table #5: started
+2023/02/28-19:30:17.100 62fc Level-0 table #5: 35580 bytes OK
+2023/02/28-19:30:17.852 62fc Delete type=0 #3

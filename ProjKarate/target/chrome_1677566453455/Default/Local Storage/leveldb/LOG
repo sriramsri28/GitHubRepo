@@ -1,0 +1,5 @@
+2023/02/28-12:11:05.469 5ed4 Creating DB F:\Selenium\ProjKarate\target\chrome_1677566453455\Default\Local Storage\leveldb since it was missing.
+2023/02/28-12:11:08.207 5ed4 Reusing MANIFEST F:\Selenium\ProjKarate\target\chrome_1677566453455\Default\Local Storage\leveldb/MANIFEST-000001
+2023/02/28-12:11:32.454 5ed4 Level-0 table #5: started
+2023/02/28-12:11:34.636 5ed4 Level-0 table #5: 36432 bytes OK
+2023/02/28-12:11:34.901 5ed4 Delete type=0 #3
