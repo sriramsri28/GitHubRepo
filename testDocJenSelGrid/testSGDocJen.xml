@@ -14,7 +14,7 @@
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="Test_Edge">
-	<parameter name="browser" value="edge" />
+	<parameter name="browser" value="MicrosoftEdge" />
     <classes>
       <class name="testSGJenDoc.testCase_1"/>
     </classes>
