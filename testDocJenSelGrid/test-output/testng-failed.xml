@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.test.TC_2">
+        <methods>
+          <include name="setup"/>
+          <include name="stopContainer"/>
+          <include name="localtest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.test.TC_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
